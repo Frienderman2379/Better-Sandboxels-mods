@@ -283,9 +283,9 @@ behavior: behaviors.LIQUID,
 category: "liquids",
 density: 998,
 state: "liquid",
-tempHigh: 100,
+tempHigh: 101.4,
 stateHigh: "heavy_steam",
-tempLow: 0,
+tempLow: 3.8,
 stateLow: "heavy_ice"
 };
 behaviors.RADIOACTIVE_GAS = [
@@ -387,7 +387,7 @@ category: "gases",
 density: 1.6,
 state: "liquid",
 temp: 150,
-tempLow: 100,
+tempLow: 101.4,
 stateLow: "heavy_water"
 };
 elements.heavy_ice = {
@@ -397,7 +397,7 @@ category: "solids",
 density: 918,
 state: "solid",
 temp: -20,
-tempHigh: 0,
+tempHigh: 3.8,
 stateHigh: "heavy_water"
 };
 elements.heavy_snow = {
@@ -407,7 +407,7 @@ category: "land",
 density: 101,
 state: "solid",
 temp: -20,
-tempHigh: 0,
+tempHigh: 3.8,
 stateHigh: "heavy_water"
 };
 elements.coal = {
